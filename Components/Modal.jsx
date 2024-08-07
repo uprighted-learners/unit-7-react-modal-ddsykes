@@ -9,7 +9,7 @@ return(
     <main id="modal-background">
 <section id="modal-content">
 <p> I am a modal.</p>
-<button onClick={props.handleClick}>CLose Modal</button>
+<button onClick={props.handleClick}>Close Modal</button>
 <button onClick={props.handleClick}>Open Modal</button>
 </section>
     </main>

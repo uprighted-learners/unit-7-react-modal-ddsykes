@@ -5,6 +5,13 @@ const Modal = (props) =>{
     if(!props.ModalState){
         return <div style ={{display:"none"}}></div>
     }
+const handleBackgroundClick = (e) =>{
+    if (e.target.id === "modal-background"){
+        props.handleClick();
+    }
+}
+
+
 return(
     <main id="modal-background">
 <section id="modal-content">
